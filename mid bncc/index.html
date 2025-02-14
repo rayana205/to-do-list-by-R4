@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To-Do List</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+
+    <img src="binus1.png" alt="BINUS Logo" class="logo">
+    
+    <h1>made by raya</h1>
+    <h2>to do list just for U </h2>
+    <form id="taskForm">
+      <input type="text" id="title" placeholder="Judul Task (5-25 karakter)" required>
+      <textarea id="description" placeholder="Deskripsi Task (20-100 karakter)" required></textarea>
+      <button type="submit">Tambah Task</button>
+    </form>
+    <div id="taskList"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
